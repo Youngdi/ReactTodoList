@@ -15,17 +15,17 @@ class Video extends React.Component {
   componentWillMount() {
     // load video resources from here
     this.Lvideos = [
-      'video/ooxx_0001.mp4',
-      'video/ooxx_0002.mp4',
-      'video/ooxx_0003.mp4',
-      'video/ooxx_0004.mp4',
+      'client/video/ooxx_0001.mp4',
+      'client/video/ooxx_0002.mp4',
+      'client/video/ooxx_0003.mp4',
+      'client/video/ooxx_0004.mp4',
     ];
     this.setState({
       videos: [
-        'video/ooxx_0001.mp4',
-        'video/ooxx_0002.mp4',
-        'video/ooxx_0003.mp4',
-        'video/ooxx_0004.mp4',
+        'client/video/ooxx_0001.mp4',
+        'client/video/ooxx_0002.mp4',
+        'client/video/ooxx_0003.mp4',
+        'client/video/ooxx_0004.mp4',
       ],
     });
   }
