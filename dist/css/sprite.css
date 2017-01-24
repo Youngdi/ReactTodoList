@@ -1,0 +1,504 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-editor-_close_pressed:active {
+  background-image: url(../images/editor_icon.png);
+  background-position: -143px -184px;
+  width: 15px;
+  height: 15px;
+}
+.icon-editor-btn_attach_preview:active {
+  background-image: url(../images/editor_icon.png);
+  background-position: -173px -184px;
+  width: 19px;
+  height: 11px;
+}
+.icon-editor-align_center {
+  background-image: url(../images/editor_icon.png);
+  background-position: -48px -152px;
+  width: 16px;
+  height: 16px;
+}
+.icon-editor-align_left {
+  background-image: url(../images/editor_icon.png);
+  background-position: -176px -112px;
+  width: 16px;
+  height: 16px;
+}
+.icon-editor-align_right {
+  background-image: url(../images/editor_icon.png);
+  background-position: -16px -184px;
+  width: 16px;
+  height: 16px;
+}
+.icon-editor-attach_preview {
+  background-image: url(../images/editor_icon.png);
+  background-position: -40px -132px;
+  width: 20px;
+  height: 20px;
+}
+.icon-editor-btn_dowload {
+  background-image: url(../images/editor_icon.png);
+  background-position: 0px -132px;
+  width: 20px;
+  height: 20px;
+}
+.icon-editor-btn_editor_clearfomatting_normal {
+  background-image: url(../images/editor_icon.png);
+  background-position: -32px -184px;
+  width: 16px;
+  height: 16px;
+}
+.icon-editor-btn_table_addgrid {
+  background-image: url(../images/editor_icon.png);
+  background-position: -96px -132px;
+  width: 16px;
+  height: 16px;
+}
+.icon-editor-btn_table_decreasegrid {
+  background-image: url(../images/editor_icon.png);
+  background-position: -112px -132px;
+  width: 16px;
+  height: 16px;
+}
+.icon-editor-calender {
+  background-image: url(../images/editor_icon.png);
+  background-position: -128px -132px;
+  width: 16px;
+  height: 16px;
+}
+.icon-editor-close {
+  background-image: url(../images/editor_icon.png);
+  background-position: -158px -184px;
+  width: 15px;
+  height: 15px;
+}
+.icon-editor-default-head {
+  background-image: url(../images/editor_icon.png);
+  background-position: -208px -26px;
+  width: 12px;
+  height: 12px;
+}
+.icon-editor-edit {
+  background-image: url(../images/editor_icon.png);
+  background-position: 0px -152px;
+  width: 16px;
+  height: 16px;
+}
+.icon-editor-em {
+  background-image: url(../images/editor_icon.png);
+  background-position: -16px -152px;
+  width: 16px;
+  height: 16px;
+}
+.icon-editor-em_hover {
+  background-image: url(../images/editor_icon.png);
+  background-position: -32px -152px;
+  width: 16px;
+  height: 16px;
+}
+.icon-editor-align_center:hover {
+  background-image: url(../images/editor_icon.png);
+  background-position: -192px -144px;
+  width: 16px;
+  height: 16px;
+}
+.icon-editor-align_left:hover {
+  background-image: url(../images/editor_icon.png);
+  background-position: -192px -160px;
+  width: 16px;
+  height: 16px;
+}
+.icon-editor-align_right:hover {
+  background-image: url(../images/editor_icon.png);
+  background-position: 0px -184px;
+  width: 16px;
+  height: 16px;
+}
+.icon-editor-attach_preview:hover {
+  background-image: url(../images/editor_icon.png);
+  background-position: -60px -132px;
+  width: 20px;
+  height: 20px;
+}
+.icon-editor-btn_dowload:hover {
+  background-image: url(../images/editor_icon.png);
+  background-position: -20px -132px;
+  width: 20px;
+  height: 20px;
+}
+.icon-editor-btn_table_addgrid:hover {
+  background-image: url(../images/editor_icon.png);
+  background-position: -48px -184px;
+  width: 16px;
+  height: 16px;
+}
+.icon-editor-btn_table_decreasegrid:hover {
+  background-image: url(../images/editor_icon.png);
+  background-position: -64px -184px;
+  width: 16px;
+  height: 16px;
+}
+.icon-editor-calender:hover {
+  background-image: url(../images/editor_icon.png);
+  background-position: -80px -184px;
+  width: 16px;
+  height: 16px;
+}
+.icon-editor-clearfomatting:hover {
+  background-image: url(../images/editor_icon.png);
+  background-position: -96px -184px;
+  width: 16px;
+  height: 16px;
+}
+.icon-editor-close:hover {
+  background-image: url(../images/editor_icon.png);
+  background-position: -128px -184px;
+  width: 15px;
+  height: 15px;
+}
+.icon-editor-edit:hover {
+  background-image: url(../images/editor_icon.png);
+  background-position: -192px -128px;
+  width: 16px;
+  height: 16px;
+}
+.icon-editor-imageeditor:hover {
+  background-image: url(../images/editor_icon.png);
+  background-position: -192px -112px;
+  width: 16px;
+  height: 16px;
+}
+.icon-editor-increase_indent:hover {
+  background-image: url(../images/editor_icon.png);
+  background-position: -128px -168px;
+  width: 16px;
+  height: 16px;
+}
+.icon-editor-remove:hover {
+  background-image: url(../images/editor_icon.png);
+  background-position: -112px -168px;
+  width: 16px;
+  height: 16px;
+}
+.icon-editor-task:hover {
+  background-image: url(../images/editor_icon.png);
+  background-position: -160px -132px;
+  width: 16px;
+  height: 16px;
+}
+.icon-editor-testbgcolor:hover {
+  background-image: url(../images/editor_icon.png);
+  background-position: -144px -132px;
+  width: 16px;
+  height: 16px;
+}
+.icon-editor-textcolor:hover {
+  background-image: url(../images/editor_icon.png);
+  background-position: -112px -184px;
+  width: 16px;
+  height: 16px;
+}
+.icon-editor-ic_audio {
+  background-image: url(../images/editor_icon.png);
+  background-position: 0px -88px;
+  width: 44px;
+  height: 44px;
+}
+.icon-editor-ic_doc {
+  background-image: url(../images/editor_icon.png);
+  background-position: 0px -44px;
+  width: 44px;
+  height: 44px;
+}
+.icon-editor-ic_excel {
+  background-image: url(../images/editor_icon.png);
+  background-position: -44px -44px;
+  width: 44px;
+  height: 44px;
+}
+.icon-editor-ic_hidden {
+  background-image: url(../images/editor_icon.png);
+  background-position: -88px 0px;
+  width: 44px;
+  height: 44px;
+}
+.icon-editor-ic_image {
+  background-image: url(../images/editor_icon.png);
+  background-position: -88px -44px;
+  width: 44px;
+  height: 44px;
+}
+.icon-editor-ic_pdf {
+  background-image: url(../images/editor_icon.png);
+  background-position: -44px 0px;
+  width: 44px;
+  height: 44px;
+}
+.icon-editor-ic_ppt {
+  background-image: url(../images/editor_icon.png);
+  background-position: 0px 0px;
+  width: 44px;
+  height: 44px;
+}
+.icon-editor-ic_text {
+  background-image: url(../images/editor_icon.png);
+  background-position: -44px -88px;
+  width: 44px;
+  height: 44px;
+}
+.icon-editor-ic_unknow {
+  background-image: url(../images/editor_icon.png);
+  background-position: -88px -88px;
+  width: 44px;
+  height: 44px;
+}
+.icon-editor-ic_video {
+  background-image: url(../images/editor_icon.png);
+  background-position: -132px 0px;
+  width: 44px;
+  height: 44px;
+}
+.icon-editor-ic_word {
+  background-image: url(../images/editor_icon.png);
+  background-position: -132px -44px;
+  width: 44px;
+  height: 44px;
+}
+.icon-editor-ic_zip {
+  background-image: url(../images/editor_icon.png);
+  background-position: -132px -88px;
+  width: 44px;
+  height: 44px;
+}
+.icon-editor-imageeditor {
+  background-image: url(../images/editor_icon.png);
+  background-position: -64px -152px;
+  width: 16px;
+  height: 16px;
+}
+.icon-editor-increase_indent {
+  background-image: url(../images/editor_icon.png);
+  background-position: -80px -152px;
+  width: 16px;
+  height: 16px;
+}
+.icon-editor-insertFile {
+  background-image: url(../images/editor_icon.png);
+  background-position: -96px -152px;
+  width: 16px;
+  height: 16px;
+}
+.icon-editor-insertFile_hover {
+  background-image: url(../images/editor_icon.png);
+  background-position: -112px -152px;
+  width: 16px;
+  height: 16px;
+}
+.icon-editor-insertHorizontalRule {
+  background-image: url(../images/editor_icon.png);
+  background-position: -128px -152px;
+  width: 16px;
+  height: 16px;
+}
+.icon-editor-insertHorizontalRule_hover {
+  background-image: url(../images/editor_icon.png);
+  background-position: -144px -152px;
+  width: 16px;
+  height: 16px;
+}
+.icon-editor-insertImage {
+  background-image: url(../images/editor_icon.png);
+  background-position: -160px -152px;
+  width: 16px;
+  height: 16px;
+}
+.icon-editor-insertImage_hover {
+  background-image: url(../images/editor_icon.png);
+  background-position: -176px 0px;
+  width: 16px;
+  height: 16px;
+}
+.icon-editor-insertTable {
+  background-image: url(../images/editor_icon.png);
+  background-position: -176px -16px;
+  width: 16px;
+  height: 16px;
+}
+.icon-editor-insertTable_hover {
+  background-image: url(../images/editor_icon.png);
+  background-position: -176px -32px;
+  width: 16px;
+  height: 16px;
+}
+.icon-editor-lift {
+  background-image: url(../images/editor_icon.png);
+  background-position: -176px -48px;
+  width: 16px;
+  height: 16px;
+}
+.icon-editor-lift_hover {
+  background-image: url(../images/editor_icon.png);
+  background-position: -176px -64px;
+  width: 16px;
+  height: 16px;
+}
+.icon-editor-link {
+  background-image: url(../images/editor_icon.png);
+  background-position: -176px -80px;
+  width: 16px;
+  height: 16px;
+}
+.icon-editor-link_hover {
+  background-image: url(../images/editor_icon.png);
+  background-position: -176px -96px;
+  width: 16px;
+  height: 16px;
+}
+.icon-editor-redo {
+  background-image: url(../images/editor_icon.png);
+  background-position: -80px -132px;
+  width: 16px;
+  height: 16px;
+}
+.icon-editor-redo_hover {
+  background-image: url(../images/editor_icon.png);
+  background-position: -176px -128px;
+  width: 16px;
+  height: 16px;
+}
+.icon-editor-remove {
+  background-image: url(../images/editor_icon.png);
+  background-position: -176px -144px;
+  width: 16px;
+  height: 16px;
+}
+.icon-editor-strikethrough {
+  background-image: url(../images/editor_icon.png);
+  background-position: 0px -168px;
+  width: 16px;
+  height: 16px;
+}
+.icon-editor-strikethrough_hover {
+  background-image: url(../images/editor_icon.png);
+  background-position: -16px -168px;
+  width: 16px;
+  height: 16px;
+}
+.icon-editor-strong {
+  background-image: url(../images/editor_icon.png);
+  background-position: -32px -168px;
+  width: 16px;
+  height: 16px;
+}
+.icon-editor-strong_hover {
+  background-image: url(../images/editor_icon.png);
+  background-position: -48px -168px;
+  width: 16px;
+  height: 16px;
+}
+.icon-editor-task {
+  background-image: url(../images/editor_icon.png);
+  background-position: -64px -168px;
+  width: 16px;
+  height: 16px;
+}
+.icon-editor-testbgcolor {
+  background-image: url(../images/editor_icon.png);
+  background-position: -80px -168px;
+  width: 16px;
+  height: 16px;
+}
+.icon-editor-textcolor {
+  background-image: url(../images/editor_icon.png);
+  background-position: -96px -168px;
+  width: 16px;
+  height: 16px;
+}
+.icon-editor-triangle {
+  background-image: url(../images/editor_icon.png);
+  background-position: -208px -13px;
+  width: 13px;
+  height: 13px;
+}
+.icon-editor-triangle_hover {
+  background-image: url(../images/editor_icon.png);
+  background-position: -208px 0px;
+  width: 13px;
+  height: 13px;
+}
+.icon-editor-underline {
+  background-image: url(../images/editor_icon.png);
+  background-position: -144px -168px;
+  width: 16px;
+  height: 16px;
+}
+.icon-editor-underline_hover {
+  background-image: url(../images/editor_icon.png);
+  background-position: -160px -168px;
+  width: 16px;
+  height: 16px;
+}
+.icon-editor-undo {
+  background-image: url(../images/editor_icon.png);
+  background-position: -176px -168px;
+  width: 16px;
+  height: 16px;
+}
+.icon-editor-undo_hover {
+  background-image: url(../images/editor_icon.png);
+  background-position: -192px 0px;
+  width: 16px;
+  height: 16px;
+}
+.icon-editor-wrapBlockQuote {
+  background-image: url(../images/editor_icon.png);
+  background-position: -192px -16px;
+  width: 16px;
+  height: 16px;
+}
+.icon-editor-wrapBlockQuote_hover {
+  background-image: url(../images/editor_icon.png);
+  background-position: -192px -32px;
+  width: 16px;
+  height: 16px;
+}
+.icon-editor-wrapBulletList {
+  background-image: url(../images/editor_icon.png);
+  background-position: -192px -48px;
+  width: 16px;
+  height: 16px;
+}
+.icon-editor-wrapBulletList_hover {
+  background-image: url(../images/editor_icon.png);
+  background-position: -192px -64px;
+  width: 16px;
+  height: 16px;
+}
+.icon-editor-wrapOrderedList {
+  background-image: url(../images/editor_icon.png);
+  background-position: -192px -80px;
+  width: 16px;
+  height: 16px;
+}
+.icon-editor-wrapOrderedList_hover {
+  background-image: url(../images/editor_icon.png);
+  background-position: -192px -96px;
+  width: 16px;
+  height: 16px;
+}

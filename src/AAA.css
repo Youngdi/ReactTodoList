@@ -1,0 +1,25 @@
+$small: 100px;
+$medium: 700px;
+$large: 960px;
+
+.AAA {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: red;
+  color: white;
+  font-style: bold;
+  overflow: hidden;
+  height: $small;
+}
+h1 {
+	color: red;
+}
+.BBB{
+  display: flex;
+  background: purple;
+}
+.BBB::after{
+  content : '-------';
+}

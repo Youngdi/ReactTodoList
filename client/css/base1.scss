@@ -1,0 +1,15 @@
+$small: 400px;
+$medium: 700px;
+$large: 960px;
+
+$susy:(
+  columns: 12,
+  gutters: 1/4,
+  math: fluid,
+  output: float,
+  gutter-position: inside,
+);
+
+body{
+  background: #eee;
+}

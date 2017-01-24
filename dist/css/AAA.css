@@ -1,0 +1,25 @@
+.AAA {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  text-align: center;
+  background: red;
+  color: white;
+  font-style: bold;
+  overflow: hidden;
+  height: 100px;
+}
+h1 {
+	color: red;
+}
+.BBB{
+  display: -ms-flexbox;
+  display: flex;
+  background: red;
+}
+.BBB::after{
+  content : '-------';
+}

@@ -1,0 +1,25 @@
+body{
+  background: #eee;
+}
+
+.ABC {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  text-align: center;
+  background: #1791d3;
+  color: white;
+  font-style: bold;
+  overflow: hidden;
+  height: 400px;
+}
+h1 {
+	color: red;
+}
+.AAA{
+  display: -ms-flexbox;
+  display: flex;
+}

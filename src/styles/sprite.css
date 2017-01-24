@@ -1,0 +1,504 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-_close_pressed {
+  background-image: url(sprite.png);
+  background-position: -143px -184px;
+  width: 15px;
+  height: 15px;
+}
+.icon-btn_attach_preview {
+  background-image: url(sprite.png);
+  background-position: -173px -184px;
+  width: 19px;
+  height: 11px;
+}
+.icon-align_center {
+  background-image: url(sprite.png);
+  background-position: -48px -152px;
+  width: 16px;
+  height: 16px;
+}
+.icon-align_left {
+  background-image: url(sprite.png);
+  background-position: -176px -112px;
+  width: 16px;
+  height: 16px;
+}
+.icon-align_right {
+  background-image: url(sprite.png);
+  background-position: -16px -184px;
+  width: 16px;
+  height: 16px;
+}
+.icon-attach_preview {
+  background-image: url(sprite.png);
+  background-position: -40px -132px;
+  width: 20px;
+  height: 20px;
+}
+.icon-btn_dowload {
+  background-image: url(sprite.png);
+  background-position: 0px -132px;
+  width: 20px;
+  height: 20px;
+}
+.icon-btn_editor_clearfomatting_normal {
+  background-image: url(sprite.png);
+  background-position: -32px -184px;
+  width: 16px;
+  height: 16px;
+}
+.icon-btn_table_addgrid {
+  background-image: url(sprite.png);
+  background-position: -96px -132px;
+  width: 16px;
+  height: 16px;
+}
+.icon-btn_table_decreasegrid {
+  background-image: url(sprite.png);
+  background-position: -112px -132px;
+  width: 16px;
+  height: 16px;
+}
+.icon-calender {
+  background-image: url(sprite.png);
+  background-position: -128px -132px;
+  width: 16px;
+  height: 16px;
+}
+.icon-close {
+  background-image: url(sprite.png);
+  background-position: -158px -184px;
+  width: 15px;
+  height: 15px;
+}
+.icon-default-head {
+  background-image: url(sprite.png);
+  background-position: -208px -26px;
+  width: 12px;
+  height: 12px;
+}
+.icon-edit {
+  background-image: url(sprite.png);
+  background-position: 0px -152px;
+  width: 16px;
+  height: 16px;
+}
+.icon-em {
+  background-image: url(sprite.png);
+  background-position: -16px -152px;
+  width: 16px;
+  height: 16px;
+}
+.icon-em_hover {
+  background-image: url(sprite.png);
+  background-position: -32px -152px;
+  width: 16px;
+  height: 16px;
+}
+.icon-align_center {
+  background-image: url(sprite.png);
+  background-position: -192px -144px;
+  width: 16px;
+  height: 16px;
+}
+.icon-align_left {
+  background-image: url(sprite.png);
+  background-position: -192px -160px;
+  width: 16px;
+  height: 16px;
+}
+.icon-align_right {
+  background-image: url(sprite.png);
+  background-position: 0px -184px;
+  width: 16px;
+  height: 16px;
+}
+.icon-attach_preview {
+  background-image: url(sprite.png);
+  background-position: -60px -132px;
+  width: 20px;
+  height: 20px;
+}
+.icon-btn_dowload {
+  background-image: url(sprite.png);
+  background-position: -20px -132px;
+  width: 20px;
+  height: 20px;
+}
+.icon-btn_table_addgrid {
+  background-image: url(sprite.png);
+  background-position: -48px -184px;
+  width: 16px;
+  height: 16px;
+}
+.icon-btn_table_decreasegrid {
+  background-image: url(sprite.png);
+  background-position: -64px -184px;
+  width: 16px;
+  height: 16px;
+}
+.icon-calender {
+  background-image: url(sprite.png);
+  background-position: -80px -184px;
+  width: 16px;
+  height: 16px;
+}
+.icon-clearfomatting {
+  background-image: url(sprite.png);
+  background-position: -96px -184px;
+  width: 16px;
+  height: 16px;
+}
+.icon-close {
+  background-image: url(sprite.png);
+  background-position: -128px -184px;
+  width: 15px;
+  height: 15px;
+}
+.icon-edit {
+  background-image: url(sprite.png);
+  background-position: -192px -128px;
+  width: 16px;
+  height: 16px;
+}
+.icon-imageeditor {
+  background-image: url(sprite.png);
+  background-position: -192px -112px;
+  width: 16px;
+  height: 16px;
+}
+.icon-increase_indent {
+  background-image: url(sprite.png);
+  background-position: -128px -168px;
+  width: 16px;
+  height: 16px;
+}
+.icon-remove {
+  background-image: url(sprite.png);
+  background-position: -112px -168px;
+  width: 16px;
+  height: 16px;
+}
+.icon-task {
+  background-image: url(sprite.png);
+  background-position: -160px -132px;
+  width: 16px;
+  height: 16px;
+}
+.icon-testbgcolor {
+  background-image: url(sprite.png);
+  background-position: -144px -132px;
+  width: 16px;
+  height: 16px;
+}
+.icon-textcolor {
+  background-image: url(sprite.png);
+  background-position: -112px -184px;
+  width: 16px;
+  height: 16px;
+}
+.icon-ic_audio {
+  background-image: url(sprite.png);
+  background-position: 0px -88px;
+  width: 44px;
+  height: 44px;
+}
+.icon-ic_doc {
+  background-image: url(sprite.png);
+  background-position: 0px -44px;
+  width: 44px;
+  height: 44px;
+}
+.icon-ic_excel {
+  background-image: url(sprite.png);
+  background-position: -44px -44px;
+  width: 44px;
+  height: 44px;
+}
+.icon-ic_hidden {
+  background-image: url(sprite.png);
+  background-position: -88px 0px;
+  width: 44px;
+  height: 44px;
+}
+.icon-ic_image {
+  background-image: url(sprite.png);
+  background-position: -88px -44px;
+  width: 44px;
+  height: 44px;
+}
+.icon-ic_pdf {
+  background-image: url(sprite.png);
+  background-position: -44px 0px;
+  width: 44px;
+  height: 44px;
+}
+.icon-ic_ppt {
+  background-image: url(sprite.png);
+  background-position: 0px 0px;
+  width: 44px;
+  height: 44px;
+}
+.icon-ic_text {
+  background-image: url(sprite.png);
+  background-position: -44px -88px;
+  width: 44px;
+  height: 44px;
+}
+.icon-ic_unknow {
+  background-image: url(sprite.png);
+  background-position: -88px -88px;
+  width: 44px;
+  height: 44px;
+}
+.icon-ic_video {
+  background-image: url(sprite.png);
+  background-position: -132px 0px;
+  width: 44px;
+  height: 44px;
+}
+.icon-ic_word {
+  background-image: url(sprite.png);
+  background-position: -132px -44px;
+  width: 44px;
+  height: 44px;
+}
+.icon-ic_zip {
+  background-image: url(sprite.png);
+  background-position: -132px -88px;
+  width: 44px;
+  height: 44px;
+}
+.icon-imageeditor {
+  background-image: url(sprite.png);
+  background-position: -64px -152px;
+  width: 16px;
+  height: 16px;
+}
+.icon-increase_indent {
+  background-image: url(sprite.png);
+  background-position: -80px -152px;
+  width: 16px;
+  height: 16px;
+}
+.icon-insertFile {
+  background-image: url(sprite.png);
+  background-position: -96px -152px;
+  width: 16px;
+  height: 16px;
+}
+.icon-insertFile_hover {
+  background-image: url(sprite.png);
+  background-position: -112px -152px;
+  width: 16px;
+  height: 16px;
+}
+.icon-insertHorizontalRule {
+  background-image: url(sprite.png);
+  background-position: -128px -152px;
+  width: 16px;
+  height: 16px;
+}
+.icon-insertHorizontalRule_hover {
+  background-image: url(sprite.png);
+  background-position: -144px -152px;
+  width: 16px;
+  height: 16px;
+}
+.icon-insertImage {
+  background-image: url(sprite.png);
+  background-position: -160px -152px;
+  width: 16px;
+  height: 16px;
+}
+.icon-insertImage_hover {
+  background-image: url(sprite.png);
+  background-position: -176px 0px;
+  width: 16px;
+  height: 16px;
+}
+.icon-insertTable {
+  background-image: url(sprite.png);
+  background-position: -176px -16px;
+  width: 16px;
+  height: 16px;
+}
+.icon-insertTable_hover {
+  background-image: url(sprite.png);
+  background-position: -176px -32px;
+  width: 16px;
+  height: 16px;
+}
+.icon-lift {
+  background-image: url(sprite.png);
+  background-position: -176px -48px;
+  width: 16px;
+  height: 16px;
+}
+.icon-lift_hover {
+  background-image: url(sprite.png);
+  background-position: -176px -64px;
+  width: 16px;
+  height: 16px;
+}
+.icon-link {
+  background-image: url(sprite.png);
+  background-position: -176px -80px;
+  width: 16px;
+  height: 16px;
+}
+.icon-link_hover {
+  background-image: url(sprite.png);
+  background-position: -176px -96px;
+  width: 16px;
+  height: 16px;
+}
+.icon-redo {
+  background-image: url(sprite.png);
+  background-position: -80px -132px;
+  width: 16px;
+  height: 16px;
+}
+.icon-redo_hover {
+  background-image: url(sprite.png);
+  background-position: -176px -128px;
+  width: 16px;
+  height: 16px;
+}
+.icon-remove {
+  background-image: url(sprite.png);
+  background-position: -176px -144px;
+  width: 16px;
+  height: 16px;
+}
+.icon-strikethrough {
+  background-image: url(sprite.png);
+  background-position: 0px -168px;
+  width: 16px;
+  height: 16px;
+}
+.icon-strikethrough_hover {
+  background-image: url(sprite.png);
+  background-position: -16px -168px;
+  width: 16px;
+  height: 16px;
+}
+.icon-strong {
+  background-image: url(sprite.png);
+  background-position: -32px -168px;
+  width: 16px;
+  height: 16px;
+}
+.icon-strong_hover {
+  background-image: url(sprite.png);
+  background-position: -48px -168px;
+  width: 16px;
+  height: 16px;
+}
+.icon-task {
+  background-image: url(sprite.png);
+  background-position: -64px -168px;
+  width: 16px;
+  height: 16px;
+}
+.icon-testbgcolor {
+  background-image: url(sprite.png);
+  background-position: -80px -168px;
+  width: 16px;
+  height: 16px;
+}
+.icon-textcolor {
+  background-image: url(sprite.png);
+  background-position: -96px -168px;
+  width: 16px;
+  height: 16px;
+}
+.icon-triangle {
+  background-image: url(sprite.png);
+  background-position: -208px -13px;
+  width: 13px;
+  height: 13px;
+}
+.icon-triangle_hover {
+  background-image: url(sprite.png);
+  background-position: -208px 0px;
+  width: 13px;
+  height: 13px;
+}
+.icon-underline {
+  background-image: url(sprite.png);
+  background-position: -144px -168px;
+  width: 16px;
+  height: 16px;
+}
+.icon-underline_hover {
+  background-image: url(sprite.png);
+  background-position: -160px -168px;
+  width: 16px;
+  height: 16px;
+}
+.icon-undo {
+  background-image: url(sprite.png);
+  background-position: -176px -168px;
+  width: 16px;
+  height: 16px;
+}
+.icon-undo_hover {
+  background-image: url(sprite.png);
+  background-position: -192px 0px;
+  width: 16px;
+  height: 16px;
+}
+.icon-wrapBlockQuote {
+  background-image: url(sprite.png);
+  background-position: -192px -16px;
+  width: 16px;
+  height: 16px;
+}
+.icon-wrapBlockQuote_hover {
+  background-image: url(sprite.png);
+  background-position: -192px -32px;
+  width: 16px;
+  height: 16px;
+}
+.icon-wrapBulletList {
+  background-image: url(sprite.png);
+  background-position: -192px -48px;
+  width: 16px;
+  height: 16px;
+}
+.icon-wrapBulletList_hover {
+  background-image: url(sprite.png);
+  background-position: -192px -64px;
+  width: 16px;
+  height: 16px;
+}
+.icon-wrapOrderedList {
+  background-image: url(sprite.png);
+  background-position: -192px -80px;
+  width: 16px;
+  height: 16px;
+}
+.icon-wrapOrderedList_hover {
+  background-image: url(sprite.png);
+  background-position: -192px -96px;
+  width: 16px;
+  height: 16px;
+}

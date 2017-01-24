@@ -1,0 +1,1050 @@
+.icon-editor-_close_pressed:active, .icon-editor-btn_attach_preview:active, .icon-editor-align_center, .icon-editor-align_left, .icon-editor-align_right, .icon-editor-attach_preview, .icon-editor-btn_dowload, .icon-editor-btn_editor_clearfomatting_normal, .icon-editor-btn_table_addgrid, .icon-editor-btn_table_decreasegrid, .icon-editor-calender, .icon-editor-close, .icon-editor-default-head, .icon-editor-edit, .icon-editor-em, .icon-editor-em_hover, .icon-editor-align_center:hover, .icon-editor-align_left:hover, .icon-editor-align_right:hover, .icon-editor-attach_preview:hover, .icon-editor-btn_dowload:hover, .icon-editor-btn_table_addgrid:hover, .icon-editor-btn_table_decreasegrid:hover, .icon-editor-calender:hover, .icon-editor-clearfomatting:hover, .icon-editor-close:hover, .icon-editor-edit:hover, .icon-editor-imageeditor:hover, .icon-editor-increase_indent:hover, .icon-editor-remove:hover, .icon-editor-task:hover, .icon-editor-testbgcolor:hover, .icon-editor-textcolor:hover, .icon-editor-ic_audio, .icon-editor-ic_doc, .icon-editor-ic_excel, .icon-editor-ic_hidden, .icon-editor-ic_image, .icon-editor-ic_pdf, .icon-editor-ic_ppt, .icon-editor-ic_text, .icon-editor-ic_unknow, .icon-editor-ic_video, .icon-editor-ic_word, .icon-editor-ic_zip, .icon-editor-imageeditor, .icon-editor-increase_indent, .icon-editor-insertFile, .icon-editor-insertFile_hover, .icon-editor-insertHorizontalRule, .icon-editor-insertHorizontalRule_hover, .icon-editor-insertImage, .icon-editor-insertImage_hover, .icon-editor-insertTable, .icon-editor-insertTable_hover, .icon-editor-lift, .icon-editor-lift_hover, .icon-editor-link, .icon-editor-link_hover, .icon-editor-redo, .icon-editor-redo_hover, .icon-editor-remove, .icon-editor-strikethrough, .icon-editor-strikethrough_hover, .icon-editor-strong, .icon-editor-strong_hover, .icon-editor-task, .icon-editor-testbgcolor, .icon-editor-textcolor, .icon-editor-triangle, .icon-editor-triangle_hover, .icon-editor-underline, .icon-editor-underline_hover, .icon-editor-undo, .icon-editor-undo_hover, .icon-editor-wrapBlockQuote, .icon-editor-wrapBlockQuote_hover, .icon-editor-wrapBulletList, .icon-editor-wrapBulletList_hover, .icon-editor-wrapOrderedList, .icon-editor-wrapOrderedList_hover, .ProseMirror .ProseMirror-menu-dropdown:hover .ProseMirror-triangle {
+  background-image: url(../images/editor_icon.png);
+}
+.icon-editor-_close_pressed:active {
+  background-position: -143px -184px;
+  width: 15px;
+  height: 15px;
+  min-width: 15px;
+  min-height: 15px;
+}
+.icon-editor-btn_attach_preview:active {
+  background-position: -173px -184px;
+  width: 19px;
+  height: 11px;
+  min-width: 19px;
+  min-height: 11px;
+}
+.icon-editor-align_center {
+  background-position: -48px -152px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.icon-editor-align_left {
+  background-position: -176px -112px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.icon-editor-align_right {
+  background-position: -16px -184px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.icon-editor-attach_preview {
+  background-position: -40px -132px;
+  width: 20px;
+  height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+}
+.icon-editor-btn_dowload {
+  background-position: 0px -132px;
+  width: 20px;
+  height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+}
+.icon-editor-btn_editor_clearfomatting_normal {
+  background-position: -32px -184px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.icon-editor-btn_table_addgrid {
+  background-position: -96px -132px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.icon-editor-btn_table_decreasegrid {
+  background-position: -112px -132px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.icon-editor-calender {
+  background-position: -128px -132px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.icon-editor-close {
+  background-position: -158px -184px;
+  width: 15px;
+  height: 15px;
+  min-width: 15px;
+  min-height: 15px;
+}
+.icon-editor-default-head {
+  background-position: -208px -26px;
+  width: 12px;
+  height: 12px;
+  min-width: 12px;
+  min-height: 12px;
+}
+.icon-editor-edit {
+  background-position: 0px -152px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.icon-editor-em {
+  background-position: -16px -152px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.icon-editor-em_hover {
+  background-position: -32px -152px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.icon-editor-align_center:hover {
+  background-position: -192px -144px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.icon-editor-align_left:hover {
+  background-position: -192px -160px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.icon-editor-align_right:hover {
+  background-position: 0px -184px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.icon-editor-attach_preview:hover {
+  background-position: -60px -132px;
+  width: 20px;
+  height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+}
+.icon-editor-btn_dowload:hover {
+  background-position: -20px -132px;
+  width: 20px;
+  height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+}
+.icon-editor-btn_table_addgrid:hover {
+  background-position: -48px -184px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.icon-editor-btn_table_decreasegrid:hover {
+  background-position: -64px -184px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.icon-editor-calender:hover {
+  background-position: -80px -184px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.icon-editor-clearfomatting:hover {
+  background-position: -96px -184px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.icon-editor-close:hover {
+  background-position: -128px -184px;
+  width: 15px;
+  height: 15px;
+  min-width: 15px;
+  min-height: 15px;
+}
+.icon-editor-edit:hover {
+  background-position: -192px -128px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.icon-editor-imageeditor:hover {
+  background-position: -192px -112px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.icon-editor-increase_indent:hover {
+  background-position: -128px -168px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.icon-editor-remove:hover {
+  background-position: -112px -168px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.icon-editor-task:hover {
+  background-position: -160px -132px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.icon-editor-testbgcolor:hover {
+  background-position: -144px -132px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.icon-editor-textcolor:hover {
+  background-position: -112px -184px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.icon-editor-ic_audio {
+  background-position: 0px -88px;
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  min-height: 44px;
+}
+.icon-editor-ic_doc {
+  background-position: 0px -44px;
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  min-height: 44px;
+}
+.icon-editor-ic_excel {
+  background-position: -44px -44px;
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  min-height: 44px;
+}
+.icon-editor-ic_hidden {
+  background-position: -88px 0px;
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  min-height: 44px;
+}
+.icon-editor-ic_image {
+  background-position: -88px -44px;
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  min-height: 44px;
+}
+.icon-editor-ic_pdf {
+  background-position: -44px 0px;
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  min-height: 44px;
+}
+.icon-editor-ic_ppt {
+  background-position: 0px 0px;
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  min-height: 44px;
+}
+.icon-editor-ic_text {
+  background-position: -44px -88px;
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  min-height: 44px;
+}
+.icon-editor-ic_unknow {
+  background-position: -88px -88px;
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  min-height: 44px;
+}
+.icon-editor-ic_video {
+  background-position: -132px 0px;
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  min-height: 44px;
+}
+.icon-editor-ic_word {
+  background-position: -132px -44px;
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  min-height: 44px;
+}
+.icon-editor-ic_zip {
+  background-position: -132px -88px;
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  min-height: 44px;
+}
+.icon-editor-imageeditor {
+  background-position: -64px -152px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.icon-editor-increase_indent {
+  background-position: -80px -152px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.icon-editor-insertFile {
+  background-position: -96px -152px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.icon-editor-insertFile_hover {
+  background-position: -112px -152px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.icon-editor-insertHorizontalRule {
+  background-position: -128px -152px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.icon-editor-insertHorizontalRule_hover {
+  background-position: -144px -152px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.icon-editor-insertImage {
+  background-position: -160px -152px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.icon-editor-insertImage_hover {
+  background-position: -176px 0px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.icon-editor-insertTable {
+  background-position: -176px -16px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.icon-editor-insertTable_hover {
+  background-position: -176px -32px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.icon-editor-lift {
+  background-position: -176px -48px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.icon-editor-lift_hover {
+  background-position: -176px -64px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.icon-editor-link {
+  background-position: -176px -80px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.icon-editor-link_hover {
+  background-position: -176px -96px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.icon-editor-redo {
+  background-position: -80px -132px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.icon-editor-redo_hover {
+  background-position: -176px -128px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.icon-editor-remove {
+  background-position: -176px -144px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.icon-editor-strikethrough {
+  background-position: 0px -168px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.icon-editor-strikethrough_hover {
+  background-position: -16px -168px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.icon-editor-strong {
+  background-position: -32px -168px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.icon-editor-strong_hover {
+  background-position: -48px -168px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.icon-editor-task {
+  background-position: -64px -168px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.icon-editor-testbgcolor {
+  background-position: -80px -168px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.icon-editor-textcolor {
+  background-position: -96px -168px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.icon-editor-triangle {
+  background-position: -208px -13px;
+  width: 13px;
+  height: 13px;
+  min-width: 13px;
+  min-height: 13px;
+}
+.icon-editor-triangle_hover, .ProseMirror .ProseMirror-menu-dropdown:hover .ProseMirror-triangle {
+  background-position: -208px 0px;
+  width: 13px;
+  height: 13px;
+  min-width: 13px;
+  min-height: 13px;
+}
+.icon-editor-underline {
+  background-position: -144px -168px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.icon-editor-underline_hover {
+  background-position: -160px -168px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.icon-editor-undo {
+  background-position: -176px -168px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.icon-editor-undo_hover {
+  background-position: -192px 0px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.icon-editor-wrapBlockQuote {
+  background-position: -192px -16px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.icon-editor-wrapBlockQuote_hover {
+  background-position: -192px -32px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.icon-editor-wrapBulletList {
+  background-position: -192px -48px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.icon-editor-wrapBulletList_hover {
+  background-position: -192px -64px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.icon-editor-wrapOrderedList {
+  background-position: -192px -80px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.icon-editor-wrapOrderedList_hover {
+  background-position: -192px -96px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.note-content, .ProseMirror-content {
+  padding: 20px 0px 40px 0px;
+  box-sizing: border-box;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  line-height: 1.2;
+  outline: none;
+  background: #FFFFFF;
+}
+.note-content ul, .note-content ol, .note-content li, .note-content h1, .note-content h2, .note-content h3, .note-content h4, .note-content h5, .note-content h6, .note-content pre, .note-content p, .note-content span, .note-content blockquote, .note-content .table-container, .ProseMirror-content ul, .ProseMirror-content ol, .ProseMirror-content li, .ProseMirror-content h1, .ProseMirror-content h2, .ProseMirror-content h3, .ProseMirror-content h4, .ProseMirror-content h5, .ProseMirror-content h6, .ProseMirror-content pre, .ProseMirror-content p, .ProseMirror-content span, .ProseMirror-content blockquote, .ProseMirror-content .table-container {
+  white-space: pre-wrap;
+  outline: none;
+}
+.note-content > ul, .note-content > ol, .ProseMirror-content > ul, .ProseMirror-content > ol {
+  padding-right: 55px !important;
+}
+.note-content ul, .note-content ol, .ProseMirror-content ul, .ProseMirror-content ol {
+  padding-left: 35px;
+  padding-right: 0px;
+}
+.note-content ul li, .note-content ol li, .ProseMirror-content ul li, .ProseMirror-content ol li {
+  position: relative;
+}
+.note-content ul li .paragraph, .note-content ol li .paragraph, .ProseMirror-content ul li .paragraph, .ProseMirror-content ol li .paragraph {
+  padding: 3px 0;
+}
+.note-content ul li .ProseMirror-selectednode, .note-content ol li .ProseMirror-selectednode, .ProseMirror-content ul li .ProseMirror-selectednode, .ProseMirror-content ol li .ProseMirror-selectednode {
+  outline: none;
+}
+.note-content ul li .ProseMirror-selectednode:after, .note-content ol li .ProseMirror-selectednode:after, .ProseMirror-content ul li .ProseMirror-selectednode:after, .ProseMirror-content ol li .ProseMirror-selectednode:after {
+  content: "";
+  position: absolute;
+  left: -32px;
+  right: -2px;
+  top: -2px;
+  bottom: -2px;
+  border: 2px solid #8cf;
+}
+.note-content h1, .note-content h2, .note-content h3, .note-content h4, .note-content h5, .note-content h6, .ProseMirror-content h1, .ProseMirror-content h2, .ProseMirror-content h3, .ProseMirror-content h4, .ProseMirror-content h5, .ProseMirror-content h6 {}
+.note-content h1:first-child, .note-content h2:first-child, .note-content h3:first-child, .note-content h4:first-child, .note-content h5:first-child, .note-content h6:first-child, .ProseMirror-content h1:first-child, .ProseMirror-content h2:first-child, .ProseMirror-content h3:first-child, .ProseMirror-content h4:first-child, .ProseMirror-content h5:first-child, .ProseMirror-content h6:first-child {
+  margin-top: .3em;
+}
+.note-content hr, .ProseMirror-content hr {
+  position: relative;
+}
+.note-content .paragraph, .ProseMirror-content .paragraph {
+  padding: 13px 55px;
+  margin: 0px;
+}
+.note-content a, .ProseMirror-content a {
+  color: #2384d1;
+}
+.note-content img, .ProseMirror-content img {
+  max-width: 100%;
+}
+.note-content blockquote, .ProseMirror-content blockquote {
+  padding-left: 16px;
+  border-left: 3px solid #eee;
+  margin-right: 0;
+}
+.note-content blockquote .paragraph, .ProseMirror-content blockquote .paragraph {
+  padding: 0px;
+}
+.note-content > p, .note-content > h1, .note-content > h2, .note-content > h3, .note-content > h4, .note-content > h5, .note-content > h6, .note-content > pre, .note-content > .table-container, .note-content > .ns-blockquote-container, .note-content > .ns-horizontalrule-container, .note-content > ul, .note-content > ol, .note-content .paragraph, .ProseMirror-content > p, .ProseMirror-content > h1, .ProseMirror-content > h2, .ProseMirror-content > h3, .ProseMirror-content > h4, .ProseMirror-content > h5, .ProseMirror-content > h6, .ProseMirror-content > pre, .ProseMirror-content > .table-container, .ProseMirror-content > .ns-blockquote-container, .ProseMirror-content > .ns-horizontalrule-container, .ProseMirror-content > ul, .ProseMirror-content > ol, .ProseMirror-content .paragraph {}
+.note-content > p:before, .note-content > h1:before, .note-content > h2:before, .note-content > h3:before, .note-content > h4:before, .note-content > h5:before, .note-content > h6:before, .note-content > pre:before, .note-content > .table-container:before, .note-content > .ns-blockquote-container:before, .note-content > .ns-horizontalrule-container:before, .note-content > ul:before, .note-content > ol:before, .note-content .paragraph:before, .ProseMirror-content > p:before, .ProseMirror-content > h1:before, .ProseMirror-content > h2:before, .ProseMirror-content > h3:before, .ProseMirror-content > h4:before, .ProseMirror-content > h5:before, .ProseMirror-content > h6:before, .ProseMirror-content > pre:before, .ProseMirror-content > .table-container:before, .ProseMirror-content > .ns-blockquote-container:before, .ProseMirror-content > .ns-horizontalrule-container:before, .ProseMirror-content > ul:before, .ProseMirror-content > ol:before, .ProseMirror-content .paragraph:before {
+  position: absolute;
+  left: -50px;
+  text-shadow: 2px 0px 5px #AAAAAA;
+  text-align: left;
+  font-size: 12px;
+  max-width: 50px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-height: 16px;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+.note-content > p, .note-content > h1, .note-content > h2, .note-content > h3, .note-content > h4, .note-content > h5, .note-content > h6, .note-content > pre, .note-content > .table-container, .note-content > .ns-blockquote-container, .note-content > .ns-horizontalrule-container, .note-content .paragraph, .ProseMirror-content > p, .ProseMirror-content > h1, .ProseMirror-content > h2, .ProseMirror-content > h3, .ProseMirror-content > h4, .ProseMirror-content > h5, .ProseMirror-content > h6, .ProseMirror-content > pre, .ProseMirror-content > .table-container, .ProseMirror-content > .ns-blockquote-container, .ProseMirror-content > .ns-horizontalrule-container, .ProseMirror-content .paragraph {
+  padding-left: 55px;
+  padding-right: 55px;
+}
+.note-content > ul, .note-content > ol, .ProseMirror-content > ul, .ProseMirror-content > ol {
+  padding-left: 85px;
+}
+.note-content > ul p, .note-content > ul h1, .note-content > ul h2, .note-content > ul h3, .note-content > ul h4, .note-content > ul h5, .note-content > ul h6, .note-content > ul pre, .note-content > ul .table-container, .note-content > ol p, .note-content > ol h1, .note-content > ol h2, .note-content > ol h3, .note-content > ol h4, .note-content > ol h5, .note-content > ol h6, .note-content > ol pre, .note-content > ol .table-container, .ProseMirror-content > ul p, .ProseMirror-content > ul h1, .ProseMirror-content > ul h2, .ProseMirror-content > ul h3, .ProseMirror-content > ul h4, .ProseMirror-content > ul h5, .ProseMirror-content > ul h6, .ProseMirror-content > ul pre, .ProseMirror-content > ul .table-container, .ProseMirror-content > ol p, .ProseMirror-content > ol h1, .ProseMirror-content > ol h2, .ProseMirror-content > ol h3, .ProseMirror-content > ol h4, .ProseMirror-content > ol h5, .ProseMirror-content > ol h6, .ProseMirror-content > ol pre, .ProseMirror-content > ol .table-container {
+  padding-right: 55px;
+  white-space: pre-wrap;
+}
+.note-content > ul p:before, .note-content > ul h1:before, .note-content > ul h2:before, .note-content > ul h3:before, .note-content > ul h4:before, .note-content > ul h5:before, .note-content > ul h6:before, .note-content > ul pre:before, .note-content > ul .table-container:before, .note-content > ol p:before, .note-content > ol h1:before, .note-content > ol h2:before, .note-content > ol h3:before, .note-content > ol h4:before, .note-content > ol h5:before, .note-content > ol h6:before, .note-content > ol pre:before, .note-content > ol .table-container:before, .ProseMirror-content > ul p:before, .ProseMirror-content > ul h1:before, .ProseMirror-content > ul h2:before, .ProseMirror-content > ul h3:before, .ProseMirror-content > ul h4:before, .ProseMirror-content > ul h5:before, .ProseMirror-content > ul h6:before, .ProseMirror-content > ul pre:before, .ProseMirror-content > ul .table-container:before, .ProseMirror-content > ol p:before, .ProseMirror-content > ol h1:before, .ProseMirror-content > ol h2:before, .ProseMirror-content > ol h3:before, .ProseMirror-content > ol h4:before, .ProseMirror-content > ol h5:before, .ProseMirror-content > ol h6:before, .ProseMirror-content > ol pre:before, .ProseMirror-content > ol .table-container:before {
+  position: absolute;
+  left: 101%;
+  text-shadow: 2px 0px 5px #AAAAAA;
+  text-align: left;
+  font-size: 12px;
+  max-width: 50px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-height: 16px;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+.note-content .table-scrollview, .ProseMirror-content .table-scrollview {
+  overflow-x: auto;
+  margin-bottom: 10px;
+  padding: 5px 5px 0 5px;
+}
+.note-content .table-scrollview table, .ProseMirror-content .table-scrollview table {
+  table-layout: fixed;
+  border: none;
+  border-collapse: collapse;
+}
+.note-content .table-scrollview table tbody th, .note-content .table-scrollview table tbody td, .ProseMirror-content .table-scrollview table tbody th, .ProseMirror-content .table-scrollview table tbody td {
+  border: 1px solid #d0d4d9;
+  min-height: 20px;
+}
+.note-content .table-scrollview table tbody th .paragraph, .note-content .table-scrollview table tbody td .paragraph, .ProseMirror-content .table-scrollview table tbody th .paragraph, .ProseMirror-content .table-scrollview table tbody td .paragraph {
+  min-height: 20px;
+  word-break: break-all;
+  word-wrap: break-word;
+  padding: 0px;
+  margin: 5px;
+}
+.note-content .table-scrollview table tbody td, .ProseMirror-content .table-scrollview table tbody td {
+  position: relative;
+}
+.note-content .table-scrollview table tbody td .resizer, .ProseMirror-content .table-scrollview table tbody td .resizer {
+  position: absolute;
+  top: 0;
+  right: -3px;
+  width: 5px;
+  height: 100%;
+  z-index: 2;
+}
+.note-content .table-scrollview table tbody td .is-hover, .ProseMirror-content .table-scrollview table tbody td .is-hover {
+  background-color: #6495ED;
+  cursor: col-resize;
+}
+.note-content .table-scrollview table tbody .column-resizeable .resizer, .ProseMirror-content .table-scrollview table tbody .column-resizeable .resizer {
+  background-color: #6495ED;
+}
+.note-content .table-scrollview table tbody .border-left .resizer, .ProseMirror-content .table-scrollview table tbody .border-left .resizer {
+  left: -3px;
+}
+.note-content .table-scrollview table tbody .border-right .resizer, .ProseMirror-content .table-scrollview table tbody .border-right .resizer {
+  right: -3px;
+}
+.note-content .table-scrollview table tbody .deletion-hint, .ProseMirror-content .table-scrollview table tbody .deletion-hint {
+  background-color: #f9c4ca;
+}
+.note-content .table-scrollview table tbody .horizontal-resizebar, .ProseMirror-content .table-scrollview table tbody .horizontal-resizebar {
+  width: calc(100% - 55px);
+  height: 3px;
+  position: absolute;
+  left: 0;
+  background-color: #6495ED;
+}
+.note-content .ProseMirror-progressbar, .ProseMirror-content .ProseMirror-progressbar {
+  background-color: #cccccc;
+  width: 100%;
+  height: 6px;
+  margin: 3px 0;
+}
+.note-content .ProseMirror-progressbar > div, .ProseMirror-content .ProseMirror-progressbar > div {
+  background-color: #e61a1a;
+  width: 2%;
+  height: inherit;
+}
+.note-content .ns-file, .ProseMirror-content .ns-file {
+  background-color: #eaeaea;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-align: center;
+      align-items: center;
+  height: 33px;
+  padding: 8px 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: pointer;
+}
+.note-content .ns-file > .file-type, .ProseMirror-content .ns-file > .file-type {
+  min-width: 44px;
+  max-width: 44px;
+  height: 44px;
+  float: left;
+  margin: 0 10px;
+}
+.note-content .ns-file > .description, .ProseMirror-content .ns-file > .description {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.note-content .ns-file > .description > .title, .ProseMirror-content .ns-file > .description > .title {
+  color: #2f2f2f;
+  font-size: 16px;
+  line-height: 20px;
+}
+.note-content .ns-file > .description > .size, .ProseMirror-content .ns-file > .description > .size {
+  color: #838383;
+  font-size: 10px;
+  line-height: 13px;
+}
+.note-content .ns-file + .ns-file, .ProseMirror-content .ns-file + .ns-file {
+  margin-top: 5px;
+}
+.note-content .editing-img, .ProseMirror-content .editing-img {
+  border: 2px solid #3399FF;
+}
+
+.ProseMirror {
+  position: relative;
+  height: 100%;
+  min-height: 100%;
+}
+
+/* tooltip */
+
+.ProseMirror .ProseMirror-tooltip .ProseMirror-menu {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.ProseMirror .ProseMirror-tooltip-back {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  cursor: pointer;
+}
+
+.ProseMirror .ProseMirror-tooltip-back-wrapper {
+  padding-left: 12px;
+}
+
+.ProseMirror .ProseMirror-menubar {
+  padding: 1px 4px;
+  position: relative;
+  margin: 0px 55px 3px 55px;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  background-color: #FFFFFF;
+  border: 0px;
+  z-index: 3;
+  line-height: 38px;
+}
+
+.ProseMirror .ProseMirror-menuitem > div {
+  cursor: pointer;
+  text-rendering: auto;
+  text-align: center;
+  min-width: 16px;
+  min-height: 16px;
+  display: inline-block;
+  margin-right: 10px;
+  padding: 0px;
+  vertical-align: middle;
+}
+
+.ProseMirror .ProseMirror-menuseparator {
+  margin: 0 -4px;
+  white-space: pre;
+  width: 1px;
+  height: 16px;
+  display: inline-block;
+  margin-right: 10px;
+  border: 0px;
+}
+
+.ProseMirror .ProseMirror-menuseparator:after {
+  content: "|";
+  color: #d2d2d2;
+  vertical-align: middle;
+  font-weight: 100;
+}
+
+.ProseMirror .ProseMirror-menu-dropdown, .ProseMirror .ProseMirror-menu-dropdown-menu {
+  font-size: 12px;
+  color: #2c2c2c;
+}
+
+.ProseMirror .ProseMirror-menu-dropdown {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  margin: 0;
+  min-width: 78px !important;
+  max-width: 78px !important;
+  text-align: left !important;
+  text-size: 12px;
+}
+
+.ProseMirror .ProseMirror-menu-dropdown:hover {
+  color: #e61a1a;
+}
+
+.ProseMirror .ProseMirror-menu-dropdown-menu {
+  position: absolute;
+  background: #FFFFFF;
+  color: #2c2c2c;
+  padding: 16px 0;
+  z-index: 12;
+  border: 1px solid #b0b0b0;
+  outline: 0;
+}
+
+.ProseMirror .ProseMirror-menu-dropdown-menu > .ProseMirror-menu-dropdown-item {
+  font-size: 13px;
+  padding: 0 22px;
+  color: #2f2f2f;
+  cursor: pointer;
+}
+
+.ProseMirror .ProseMirror-menu-dropdown-menu > .ProseMirror-menu-dropdown-item:hover {
+  background-color: #DEFEFE;
+}
+
+.ProseMirror-tooltip {
+  position: absolute;
+  display: none;
+  box-sizing: border-box;
+  overflow: hidden;
+  transition: width 0.4s ease-out, height 0.4s ease-out, left 0.4s ease-out, top 0.4s ease-out, opacity 0.2s;
+  opacity: 0;
+  padding: 0 20px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0;
+  background: #FFFFFF;
+  border: 1px solid #767676;
+  color: white;
+  z-index: 4;
+}
+
+.ProseMirror-tooltip input[type="text"], .ProseMirror-tooltip textarea {
+  background: #666;
+  color: white;
+  border: none;
+  outline: none;
+}
+
+.ProseMirror-tooltip input[type="text"] {
+  padding: 0 4px;
+}
+
+.ProseMirror-tooltip .ProseMirror-menuitem {
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin: 0 3px;
+
+  /*&-linktext {
+    max-width: 280px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #0071ba;
+    a {
+      color: #0071ba;
+      &:hover {
+        color: #015def;
+        text-decoration: underline;
+      }
+      &:active {
+        color: #7eaefe;
+      }
+      &:visited {
+        color: #753f94;
+      }
+    }
+  }
+  &-table-modifier {
+    width: 21px;
+    height: 16px;
+    padding: 0 2px;
+    color: #000000;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 16px;
+    cursor: pointer;
+    div {
+      margin: 0 auto;
+    }
+  }*/
+}
+
+.ProseMirror-tooltip-pointer {
+  content: "";
+  position: absolute;
+  display: none;
+  width: 0;
+  height: 0;
+  transition: left 0.4s ease-out, top 0.4s ease-out, opacity 0.2s;
+  opacity: 0;
+  z-index: 5;
+}
+
+.ProseMirror-tooltip-pointer .pointer-inner {
+  position: relative;
+}
+
+.ProseMirror-tooltip-pointer-above-border {
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid #767676;
+}
+
+.ProseMirror-tooltip-pointer-above-border .pointer-inner {
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid #FFFFFF;
+  top: -9px;
+  left: -8px;
+}
+
+.ProseMirror-tooltip-pointer-below-border {
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid #767676;
+}
+
+.ProseMirror-tooltip-pointer-below-border .pointer-inner {
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid #FFFFFF;
+  left: -8px;
+  top: 1px;
+}
+
+.ProseMirror-tooltip-pointer-right-border {
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-right: 8px solid #767676;
+}
+
+.ProseMirror-tooltip-pointer-right-border .pointer-inner {
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-right: 8px solid #FFFFFF;
+  left: -8px;
+  top: 1px;
+}
+
+.ProseMirror-tooltip-pointer-left-border {
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-left: 8px solid #767676;
+}
+
+.ProseMirror-tooltip-pointer-left-border .pointer-inner {
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-left: 8px solid #FFFFFF;
+  left: -9px;
+  top: -8px;
+}
+
+.ProseMirror-tooltipmenu-linktext > a {
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-block;
+}
+
+.ProseMirror-selectednode {
+  outline: 2px solid #8cf;
+}
+
+.ProseMirror-drop-target {
+  position: absolute;
+  width: 1px;
+  background: #666666;
+  display: none;
+}
