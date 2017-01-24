@@ -13,10 +13,6 @@ function mapStateToProps(state) {
 
 function mapDispatchToProps(dispatch) {
   return {
-    actions: {
-      todos: bindActionCreators(Todos, dispatch),
-      todo: bindActionCreators(Todo, dispatch),
-    },
     dispatch,
   };
 }

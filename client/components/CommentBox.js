@@ -2,7 +2,7 @@ import React, { PropTypes } from 'react';
 import { Link, routerShape } from 'react-router';
 import CommentForm from './CommentForm';
 import CommentList from './CommentList';
-
+import * as todosAction from '../actions/todosAction';
 // require('../css/base.scss');
 // import '../css/base.scss';
 
@@ -10,13 +10,8 @@ class CommentBox extends React.Component {
   static propTypes = {
     todo: PropTypes.object.isRequired, // eslint-disable-line react/forbid-prop-types
     todos: PropTypes.object.isRequired, // eslint-disable-line react/forbid-prop-types
-    actions: PropTypes.object.isRequired, // eslint-disable-line react/forbid-prop-types
-    dispatch: PropTypes.object.isRequired, // eslint-disable-line react/forbid-prop-types
+    dispatch: PropTypes.func.isRequired, // eslint-disable-line react/forbid-prop-types
   };
-  static contextTypes = {
-    router: routerShape.isRequired,
-  };
-
   static childContextTypes = {
     chatClient: PropTypes.object,
     dispatch: PropTypes.func.isRequired,
@@ -33,7 +28,8 @@ class CommentBox extends React.Component {
     };
   }
   componentWillMount() {
-    this.props.actions.todos.getTodoList();
+    this.props.dispatch(todosAction.getTodoList());
+    // this.props.actions.todos.getTodoList();
   }
   // shouldComponentUpdate(nextProps, nextState) {
   //   if (nextProps.enable !== this.props.enable)
@@ -41,11 +37,7 @@ class CommentBox extends React.Component {
   //   return true;
   // }
   render() {
-    console.log(this.props);
-    console.log(this.props.actions);
     const { todo, todos } = this.props;
-    const { setAuthor, setText, clearInput } = this.props.actions.todo;
-    const { deleteTodo, updateTodo, addTodo } = this.props.actions.todos;
     const user = { id: '123' };
     return (
       <div>
@@ -60,6 +52,7 @@ class CommentBox extends React.Component {
         </div>
         <h4><Link to={'/video'}>Video</Link></h4>
         <h4><Link to={`/users/${user.id}`}>Users</Link></h4>
+        <div className="CCC">Hello</div>
         <div className="BBB">
           <div className="icon-editor-calender" />
           <p>123</p>
@@ -69,15 +62,9 @@ class CommentBox extends React.Component {
 
         <CommentForm
           todo={todo}
-          authorChange={setAuthor}
-          textChange={setText}
-          clearInput={clearInput}
-          addTodo={addTodo}
         />
         <CommentList
           todos={todos}
-          deleteTodoHandle={deleteTodo}
-          updateTodo={updateTodo}
         />
       </div>
     );

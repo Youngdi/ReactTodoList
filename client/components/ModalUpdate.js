@@ -4,7 +4,6 @@ import ModalForm from './ModalForm';
 
 class UpdateModal extends React.Component {
   static propTypes = {
-    updateTodo: PropTypes.func.isRequired,
     userData: PropTypes.object.isRequired, // eslint-disable-line react/forbid-prop-types
   }
   constructor(props) {
@@ -34,7 +33,6 @@ class UpdateModal extends React.Component {
             <ModalForm
               close={this.close}
               userData={this.props.userData}
-              updateTodo={this.props.updateTodo}
             />
           </Modal.Body>
           <Modal.Footer>

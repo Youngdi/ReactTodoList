@@ -18,8 +18,44 @@ h1 {
 .BBB{
   display: -ms-flexbox;
   display: flex;
-  background: red;
+  background: purple;
 }
 .BBB::after{
   content : '-------';
+}
+.CCC:after{
+  background: #ccc;
+  height: 100px;
+  width: 200px;
+  text-align: center;
+  position: relative;
+}
+
+
+div.CCC {
+    background: #ccc;
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    position: relative;
+}
+
+div.CCC:before {
+    background: #0c0;
+    display: block;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 200px;
+    top: 0;
+}
+
+div.CCC:after {
+    background: #c00;
+    display: block;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    right: -200px;
+    top: 0;
 }

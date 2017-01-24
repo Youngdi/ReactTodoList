@@ -1,7 +1,6 @@
 import React, { PropTypes } from 'react';
 import { Link } from 'react-router';
 import Users from './Users';
-import * as todosAction from '../actions/todosAction';
 
 class Video extends React.Component {
   constructor(props) {

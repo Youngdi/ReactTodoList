@@ -1,14 +1,15 @@
 import React, { PropTypes } from 'react';
 import { Glyphicon, Button, Form, FormGroup, FormControl, ControlLabel } from 'react-bootstrap';
+import * as todosAction from '../actions/todosAction';
+import * as todoAction from '../actions/todoAction';
 
 class CommentForm extends React.Component {
   static propTypes = {
     todo: PropTypes.object.isRequired, // eslint-disable-line react/forbid-prop-types
-    authorChange: PropTypes.func.isRequired,
-    textChange: PropTypes.func.isRequired,
-    clearInput: PropTypes.func.isRequired,
-    addTodo: PropTypes.func.isRequired,
-  }
+  };
+  static contextTypes = {
+    dispatch: PropTypes.func.isRequired,
+  };
   constructor(props) {
     super(props);
     this.state = {
@@ -18,12 +19,16 @@ class CommentForm extends React.Component {
   }
   handleAuthorChange = (e) => {
     this.setState({ author: e.target.value });
-    this.props.authorChange(e.target.value);
+    this.context.dispatch(todoAction.setAuthor(e.target.value));
+    // 改成直接套context下的dispatch
+    // this.props.authorChange(e.target.value);
     // this.props.dispatch(setAuthor(e.target.value));
   }
   handleTextChange = (e) => {
     this.setState({ text: e.target.value });
-    this.props.textChange(e.target.value);
+    this.context.dispatch(todoAction.setText(e.target.value));
+    // 改成直接套context下的dispatch
+    // this.props.textChange(e.target.value);
     // this.props.dispatch(setText(e.target.value));
   }
   handleSubmit = (e) => {
@@ -39,8 +44,12 @@ class CommentForm extends React.Component {
       return;
     }
     const userData = { author: todo.author, text: todo.text };
-    this.props.clearInput();
-    this.props.addTodo(userData);
+    this.context.dispatch(todoAction.clearInput());
+    // this.props.clearInput();
+    // 改成直接套context下的dispatch
+    this.context.dispatch(todosAction.addTodo(userData));
+    // this.props.addTodo(userData);
+    // 改成直接套context下的dispatch
     this.setState({ author: '', text: '' });
   }
   render() {

@@ -2,15 +2,18 @@ import React, { PropTypes } from 'react';
 import { Link } from 'react-router';
 import { Row, Col, Button, Table } from 'react-bootstrap';
 import UpdateModal from './ModalUpdate';
+import * as todosAction from '../actions/todosAction';
 
 class CommentList extends React.Component {
   static propTypes = {
     todos: PropTypes.object.isRequired, // eslint-disable-line react/forbid-prop-types
-    deleteTodoHandle: PropTypes.func.isRequired,
-    updateTodo: PropTypes.func.isRequired,
+  };
+  static contextTypes = {
+    dispatch: PropTypes.func.isRequired,
   };
   handleSubmit(id) {
-    this.props.deleteTodoHandle(id);
+    this.context.dispatch(todosAction.deleteTodo(id));
+    // this.props.deleteTodoHandle(id);
   }
   render() {
     //  使用者資料
@@ -23,7 +26,6 @@ class CommentList extends React.Component {
           <Row >
             <Col xs={6} md={6} >
               <UpdateModal
-                updateTodo={this.props.updateTodo}
                 userData={{ id: items.id, name: items.name, text: items.text }}
               />
             </Col>

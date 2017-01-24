@@ -1,7 +1,26 @@
 import axios from 'axios';
 import swal from 'sweetalert2';
 import * as ActionTypes from '../constants/ActionTypes';
+
 // import 'sweetalert2/dist/sweetalert2.css';
+function fullToHalf(val) {
+  const value = val || '';
+  let result = '';
+  if (value) {
+    for (let i = 0; i <= value.length; i += 1) {
+      if (value.charCodeAt(i) === 12288) {
+        result += ' ';
+      } else {
+        if (value.charCodeAt(i) > 65280 && value.charCodeAt(i) < 65375) {
+          result += String.fromCharCode(value.charCodeAt(i) - 65248);
+        } else {
+          result += String.fromCharCode(value.charCodeAt(i));
+        }
+      }
+    }
+  }
+  return result.slice(0, value.length);
+}
 
 export function getTodoList() {
   return (dispatch) => {
@@ -43,11 +62,19 @@ export function deleteTodo(userId) {
   };
 }
 export function updateTodo(userData) {
+  let userDataCheck = userData;
+  const authorCheck = fullToHalf(userData.author);
+  const textCheck = fullToHalf(userData.text);
+  userDataCheck = {
+    author: authorCheck,
+    text: textCheck,
+    id: userData.id,
+  };
   return (dispatch) => {
     dispatch({ type: ActionTypes.UPDATE_TODO });
-    axios.post('/api/update', { data: userData })
+    axios.post('/api/update', { data: userDataCheck })
       .then(() => {
-        dispatch({ type: ActionTypes.UPDATE_TODO_FULFILLED, payload: userData });
+        dispatch({ type: ActionTypes.UPDATE_TODO_FULFILLED, payload: userDataCheck });
         //  呼叫getTodoList跨function的記得使用dispatch去呼叫到裡面的return function(dispatch)
         dispatch(getTodoList());
       })
@@ -58,24 +85,24 @@ export function updateTodo(userData) {
 }
 export function addTodo(userData) {
   // 全形字自動轉半形
-  function fullToHalf(val) {
-    const value = val || '';
-    let result = '';
-    if (value) {
-      for (let i = 0; i <= value.length; i += 1) {
-        if (value.charCodeAt(i) === 12288) {
-          result += ' ';
-        } else {
-          if (value.charCodeAt(i) > 65280 && value.charCodeAt(i) < 65375) {
-            result += String.fromCharCode(value.charCodeAt(i) - 65248);
-          } else {
-            result += String.fromCharCode(value.charCodeAt(i));
-          }
-        }
-      }
-    }
-    return result.slice(0, value.length);
-  }
+  // function fullToHalf(val) {
+  //   const value = val || '';
+  //   let result = '';
+  //   if (value) {
+  //     for (let i = 0; i <= value.length; i += 1) {
+  //       if (value.charCodeAt(i) === 12288) {
+  //         result += ' ';
+  //       } else {
+  //         if (value.charCodeAt(i) > 65280 && value.charCodeAt(i) < 65375) {
+  //           result += String.fromCharCode(value.charCodeAt(i) - 65248);
+  //         } else {
+  //           result += String.fromCharCode(value.charCodeAt(i));
+  //         }
+  //       }
+  //     }
+  //   }
+  //   return result.slice(0, value.length);
+  // }
   const authorCheck = fullToHalf(userData.author);
   const textCheck = fullToHalf(userData.text);
   const userDataCheck = {
