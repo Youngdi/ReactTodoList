@@ -14,11 +14,11 @@ $large: 960px;
   height: $small;
 }
 h1 {
-	color: red;
+	color: black;
 }
 .BBB{
   display: flex;
-  background: purple;
+  background: yellow;
 }
 .BBB::after{
   content : '-------';

@@ -9,6 +9,7 @@ import CommentBoxContainer from './containers/CommentBoxContainer';
 import Video from './components/Video';
 import Users from './components/Users';
 import Profile from './components/Profile';
+import Canvas from './components/Canvas';
 import store from './store/store';
 
 class App extends React.Component {
@@ -40,6 +41,7 @@ render((
         <Route path="profile/:author/:text" component={Profile} />
         <Route path="video" component={Video} />
         <Route path="users/:userID" component={Users} />
+        <Route path="canvas" component={Canvas} />
       </Route>
     </Router>
   </Provider>

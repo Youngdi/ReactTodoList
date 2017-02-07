@@ -51,6 +51,7 @@ class CommentBox extends React.Component {
           <h3>Tips: Button event, componentLifeCycle, map function, component can cross using one anothers method, just remember pass the props.</h3>
         </div>
         <h4><Link to={'/video'}>Video</Link></h4>
+        <h4><Link to={'/canvas'}>Canvas</Link></h4>
         <h4><Link to={`/users/${user.id}`}>Users</Link></h4>
         <div className="CCC">Hello</div>
         <div className="BBB">

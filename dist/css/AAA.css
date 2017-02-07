@@ -13,12 +13,12 @@
   height: 100px;
 }
 h1 {
-	color: red;
+	color: black;
 }
 .BBB{
   display: -ms-flexbox;
   display: flex;
-  background: purple;
+  background: yellow;
 }
 .BBB::after{
   content : '-------';
